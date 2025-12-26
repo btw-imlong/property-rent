@@ -1,22 +1,14 @@
 package PropertyRental.rent.Dto.Response;
 
-
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class RegisterResponse {
 
-	private final Long id;
-    private final String fullName;
-    private final String email;
-    private final String phone;
-    
-//    public RegisterResponse(Long id, String fullName, String email, String phone) {
-//    	this.id = id;
-//    	this.fullName = fullName;
-//    	this.email = email;
-//    	this.phone = phone;
-//    }
+    private Long id;
+    private String fullName;
+    private String email;
+    private String phone;
 }
